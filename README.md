@@ -55,7 +55,7 @@ Copy and paste the following code into your Arduino IDE. This code utilizes raw 
 2.  Once uploaded, the Pico will reboot and connect to Windows. Windows will display a popup saying, "You need to format the disk in drive X: before you can use it."
 3.  Click **Format disk**. Leave the File System set to **FAT (Default)** and click Start. 
 4.  Once the format is complete, open the newly mounted 1MB flash drive.
-5.  Drag and drop your `Access Card Format Calculator v3.html` file into the root of this drive.
+5.  Drag and drop Ben Hyde's `Access Card Format Calculator v3.html` file into the root of this drive.
 
 ## 6. Usage
 
