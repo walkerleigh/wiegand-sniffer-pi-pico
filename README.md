@@ -47,7 +47,7 @@ This guide details how to build a high-speed Wiegand-to-USB Keyboard sniffer tha
 ## 4. C++ Source Code
 
 Copy and paste the following code into your Arduino IDE. This code utilizes raw HID reports for maximum compatibility and uses hardware interrupts for instantaneous Wiegand pulse detection.
-[https://github.com/walkerleigh/wiegand-sniffer-pi-pico/blob/main/Pi_Pico_Wiegand_Sniffer.ino]
+[Pi_Pico_Wiegand_Sniffer.ino](https://github.com/walkerleigh/wiegand-sniffer-pi-pico/blob/main/Pi_Pico_Wiegand_Sniffer.ino)
 
 ## 5. Deployment and Formatting
 
