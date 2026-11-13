@@ -26,6 +26,8 @@ This guide details how to build a high-speed Wiegand-to-USB Keyboard sniffer tha
 *   **Data 1:** HID Signo 20 White Wire → Shifter 5V `Channel 2 RXI`
 *   **Data 1:** Shifter 3.3V `Channel 2 RXO` → Pico GP15 (Pin 20)
 
+[See fritzing schematic](Wiegand%20Sniffer_bb.pdf)
+
 **Button Connection**
 *   Connect the remaining leg of the **Push Button** → Pico GP16 (Pin 21)
 
