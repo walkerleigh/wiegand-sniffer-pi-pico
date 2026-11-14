@@ -40,22 +40,24 @@ This was vibe coded with Google Gemini. The code hasn't been audited, use at you
 
 ## 3. Arduino IDE Setup
 
-1.  **Install the Pico Core:** 
+1. **Install the Arduino IDE** [Link](https://www.arduino.cc/en/software/)
+2.  **Install the Pico Core:** 
     *   Go to **File > Preferences**. 
     *   Add `https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json` to the *Additional Boards Manager URLs*.
     *   Go to **Tools > Board > Boards Manager**, search for "pico", and install **Raspberry Pi Pico/RP2040 by Earle F. Philhower, III**.
-2.  **Install Libraries:**
+3.  **Install Libraries:**
     *   Go to **Sketch > Include Library > Manage Libraries**.
     *   Install **Adafruit SPIFlash**.
     *   Install **SdFat - Adafruit Fork**.
-3.  **Configure Board Settings (Tools Menu):**
+4.  **Configure Board Settings (Tools Menu):**
     *   **Board:** Raspberry Pi Pico
     *   **USB Stack:** Adafruit TinyUSB
     *   **Flash Size:** 2MB (Sketch: 1MB, FS: 1MB) *<-- CRITICAL for the flash drive to work*
 
 ## 4. C++ Source Code
 
-Copy and paste the following code into your Arduino IDE. This code utilizes raw HID reports for maximum compatibility and uses hardware interrupts for instantaneous Wiegand pulse detection.
+Copy and paste the code into your Arduino IDE. This code utilizes raw HID reports for maximum compatibility and uses hardware interrupts for instantaneous Wiegand pulse detection.
+
 [Pi_Pico_Wiegand_Sniffer.ino](Pi_Pico_Wiegand_Sniffer.ino)
 
 ## 5. Deployment and Formatting
