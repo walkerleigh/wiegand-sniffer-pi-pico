@@ -3,11 +3,14 @@
 This guide details how to build a high-speed Wiegand-to-USB Keyboard sniffer that simultaneously acts as a USB Flash Drive (MSC) to host an offline HTML calculator. It uses C++ and hardware interrupts to guarantee zero data loss during rapid 50µs Wiegand pulses.
 
 ## 1. Hardware Requirements
-*   Raspberry Pi Pico
-*   HID Signo 20 Reader (configured to output standard Wiegand, not OSDP)
-*   Jaycar XC4486 Level Shifter (or similar 5V to 3.3V logic level converter)
-*   12V DC Power Supply (for the reader)
-*   Momentary Push Button (for clearing the text box)
+*   Raspberry Pi Pico [Link](https://www.jaycar.com.au/universal-usb-12v-step-up-power-cable/p/PP1978)
+*   HID Signo 20 Reader (configured to output standard Wiegand, not OSDP). Ideally you need to find one with the prox antenna installed, also make sure all antennas are switched on using the HID Reader Manager app.
+*   Jaycar XC4486 Level Shifter (or similar 5V to 3.3V logic level converter) [Link](https://www.jaycar.com.au/duinotech-arduino-compatible-logic-level-converter-module/p/XC4486)
+*   12V DC Power Supply (for the reader) [Link](https://www.jaycar.com.au/universal-usb-12v-step-up-power-cable/p/PP1978)
+*   Momentary Push Button (for clearing the text box) [Link](https://www.jaycar.com.au/ip67-rated-dome-pushbutton-switch-black/p/SP0656)
+*   PCB Prototyping Board [Link](https://www.jaycar.com.au/small-breadboard-layout-prototyping-board/p/HP9570)
+*   Enclosure [Link](https://www.jaycar.com.au/plastic-molded-enclosure-dark-grey-abs-190-x-100-x-40mm/p/HB6036)
+
 
 ## 2. Wiring Connections
 
