@@ -2,6 +2,10 @@
 
 This guide details how to build a high-speed Wiegand-to-USB Keyboard sniffer that simultaneously acts as a USB Flash Drive (MSC) to host an offline HTML calculator. It uses C++ and hardware interrupts to guarantee zero data loss during rapid 50µs Wiegand pulses.
 
+[![Built with Gemini](https://vibecoded.fyi/badges/terminal/llms/gemini.svg)](https://vibecoded.fyi/)
+
+This was vibe coded with Google Gemini. The code hasn't been audited, use at your own risk!
+
 ## 1. Hardware Requirements
 *   Raspberry Pi Pico [Link](https://www.jaycar.com.au/universal-usb-12v-step-up-power-cable/p/PP1978)
 *   HID Signo 20 Reader (configured to output standard Wiegand, not OSDP). Ideally you need to find one with the prox antenna installed, also make sure all antennas are switched on using the HID Reader Manager app.
