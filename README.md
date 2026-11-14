@@ -1,4 +1,4 @@
-# Raspberry Pi Pico Wiegand Sniffer & Offline Calculator
+# Raspberry Pi Pico Wiegand Sniffer
 
 This guide details how to build a high-speed Wiegand-to-USB Keyboard sniffer that simultaneously acts as a USB Flash Drive (MSC) to host an offline HTML calculator. It uses C++ and hardware interrupts to guarantee zero data loss during rapid 50µs Wiegand pulses.
 
@@ -64,7 +64,7 @@ Copy and paste the following code into your Arduino IDE. This code utilizes raw 
 2.  Once uploaded, the Pico will reboot and connect to Windows. Windows will display a popup saying, "You need to format the disk in drive X: before you can use it."
 3.  Click **Format disk**. Leave the File System set to **FAT (Default)** and click Start. 
 4.  Once the format is complete, open the newly mounted 1MB flash drive.
-5.  Drag and drop Ben Hyde's `Access Card Format Calculator v3.html` file into the root of this drive.
+5.  Drag and drop Ben Hyde's `Access Card Format Calculator v3.html` (or later) file into the root of this drive.
 
 ## 6. Usage
 
